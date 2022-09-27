@@ -3,9 +3,9 @@ import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import portfolioData from '../../data/portfolio.json'
+import projectsData from '../../data/projects.json'
 
-const Portfolio = () => {
+const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   useEffect(() => {
@@ -14,17 +14,13 @@ const Portfolio = () => {
     }, 3000)
   }, [])
 
-  const renderPortfolio = (portfolio) => {
+  const renderProjects = (projects) => {
     return (
       <div className="images-container">
-        {portfolio.map((port, idx) => {
+        {projects.map((port, idx) => {
           return (
             <div className="image-box" key={idx}>
-              <img
-                src={port.cover}
-                className="portfolio-image"
-                alt="portfolio"
-              />
+              <img src={port.cover} className="projects-image" alt="projects" />
               <div className="content">
                 <p className="title">{port.title}</p>
                 <h4 className="description">{port.description}</h4>
@@ -41,34 +37,19 @@ const Portfolio = () => {
 
   return (
     <>
-      <div className="container portfolio-page">
+      <div className="container projects-page">
         <h1 className="page-title">
           <AnimatedLetters
             letterClass={letterClass}
-            strArray={[
-              'C',
-              'E',
-              'R',
-              'T',
-              'I',
-              'F',
-              'I',
-              'C',
-              'A',
-              'T',
-              'I',
-              'O',
-              'N',
-              'S',
-            ]}
+            strArray={['P', 'R', 'O', 'J', 'E', 'C', 'T', 'S']}
             idx={15}
           />
         </h1>
-        <div>{renderPortfolio(portfolioData.portfolio)}</div>
+        <div>{renderProjects(projectsData.projects)}</div>
       </div>
       <Loader type="pacman" />
     </>
   )
 }
 
-export default Portfolio
+export default Projects

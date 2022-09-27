@@ -11,6 +11,8 @@ import {
   faBars,
   faScroll,
   faClose,
+  faM,
+  faBarsProgress,
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
@@ -21,7 +23,7 @@ const Sidebar = () => {
     <div className="nav-bar">
       <Link className="logo" to="/" onClick={() => setShowNav(false)}>
         <FontAwesomeIcon
-          icon={faHome}
+          icon={faM}
           color="#4d4d4e"
           className="sub-logo"
           alt="Matthew"
@@ -72,10 +74,20 @@ const Sidebar = () => {
         <NavLink
           activeclassname="active"
           className="cert-link"
-          to="/Portfolio"
+          to="/portfolio"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faScroll} color="#4d4d4e" />
+        </NavLink>
+
+        {/* Projects */}
+        <NavLink
+          activeclassname="active"
+          className="projects-link"
+          to="/projects"
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faBarsProgress} color="#4d4d4e" />
         </NavLink>
         <FontAwesomeIcon
           onClick={() => setShowNav(false)}
