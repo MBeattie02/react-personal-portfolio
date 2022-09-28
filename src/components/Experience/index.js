@@ -18,7 +18,7 @@ const Experience = () => {
 
   return (
     <>
-      <div className="container home-page">
+      <div className="container experience-page">
         {/* <h1 className="title">Timeline</h1> */}
         <VerticalTimeline>
           {timelineElements.map((element) => {
@@ -32,7 +32,6 @@ const Experience = () => {
               <VerticalTimelineElement
                 key={element.key}
                 date={element.date}
-                dateClassName="date"
                 iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
                 icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
               >

@@ -64,6 +64,10 @@ const Portfolio = () => {
             idx={15}
           />
         </h1>
+        <p>
+          Below are a range of certifications I have completed as I continue to
+          build my knowledge base
+        </p>
         <div>{renderPortfolio(portfolioData.portfolio)}</div>
       </div>
       <Loader type="pacman" />

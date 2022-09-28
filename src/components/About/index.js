@@ -33,6 +33,7 @@ const About = () => {
             />
           </h1>
           <p>Computer Science Student at Queens University Belfast</p>
+          <p>Currently Completing A Years Placement At Oracle</p>
         </div>
 
         <div className="stage-cube-cont">

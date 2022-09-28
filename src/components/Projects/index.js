@@ -45,6 +45,13 @@ const Projects = () => {
             idx={15}
           />
         </h1>
+        <p>
+          I have a desire to learn about the newest technologies and put these
+          technologies into practice through coding. Below are some of the react
+          projects that I have Created. My GitHub is also linked which contains
+          projects built with a variety of programming languages as I continue
+          to develop my skills.
+        </p>
         <div>{renderProjects(projectsData.projects)}</div>
       </div>
       <Loader type="pacman" />

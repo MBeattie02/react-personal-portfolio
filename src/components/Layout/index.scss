@@ -127,9 +127,10 @@
     height: auto;
     min-height: auto;
 
+    &.projects-page,
     &.contact-page,
     &.about-page,
-    &.portfolio-page {
+    &.portfolio-page  {
       .text-zone {
         position: initial;
         transform: none;
@@ -138,8 +139,10 @@
         padding: 20px;
         box-sizing: border-box;
       }
+     
     }
 
+    &.projects-page,
     &.portfolio-page {
       width: 100%;
       padding: 20px;
@@ -156,12 +159,7 @@
       }
     }
   }
-  .date {
-
-    color: rgb(0, 0, 0);
-    font-size: 30%;
-    font-weight: bold;
-  }
+ 
 
   .stage-cube-cont {
     position: initial;
