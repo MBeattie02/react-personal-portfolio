@@ -87,7 +87,7 @@ const Contact = () => {
         </div>
 
         <div className="map-wrap">
-          <img src={person} alt="avatar" />
+          <img id={person} src={person} alt="avatar" />
         </div>
       </div>
       <Loader type="pacman" />

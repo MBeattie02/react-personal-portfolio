@@ -127,6 +127,7 @@
     height: auto;
     min-height: auto;
 
+    
     &.projects-page,
     &.contact-page,
     &.about-page,
@@ -141,7 +142,7 @@
       }
      
     }
-
+    &.about-page,
     &.projects-page,
     &.portfolio-page {
       width: 100%;
