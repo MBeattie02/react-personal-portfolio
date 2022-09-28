@@ -29,7 +29,8 @@ const Contact = () => {
       .then(
         () => {
           alert('Message successfully sent!')
-          window.location.reload(false)
+          //window.location.reload(false)
+          document.getElementById('form').reset()
         },
         () => {
           alert('Failed to send the message, please try again')
@@ -50,7 +51,7 @@ const Contact = () => {
           </h1>
           <p>Contact me if you have any questions</p>
           <div className="contact-form">
-            <form ref={form} onSubmit={sendEmail}>
+            <form id="form" ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input placeholder="Name" type="text" name="name" required />
