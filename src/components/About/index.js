@@ -3,7 +3,7 @@ import {
   faJava,
   faCss3,
   faGitAlt,
-  faHtml5,
+  faJs,
   faDocker,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
@@ -42,7 +42,7 @@ const About = () => {
               <FontAwesomeIcon icon={faJava} color="#DD0031" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+              <FontAwesomeIcon icon={faJs} color="#F06529" />
             </div>
             <div className="face3">
               <FontAwesomeIcon icon={faCss3} color="#28A4D9" />

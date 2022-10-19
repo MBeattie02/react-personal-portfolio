@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import person from './gamer.png'
+import person from './memoji.png'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
+import Tilt from 'react-parallax-tilt'
 import './index.scss'
 
 const Contact = () => {
@@ -88,7 +89,9 @@ const Contact = () => {
         </div>
 
         <div className="map-wrap">
-          <img id={person} src={person} alt="avatar" />
+          <Tilt>
+            <img id={person} src={person} alt="avatar" />
+          </Tilt>
         </div>
       </div>
       <Loader type="pacman" />

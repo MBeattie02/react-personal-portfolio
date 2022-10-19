@@ -93,6 +93,12 @@
   animation-fill-mode: forwards;
 }
 
+img {
+  margin-top: 0%;
+  width: 100%;
+  height: 100%;
+}
+
 
 
 @media screen and (max-width: 1200px) {
@@ -100,13 +106,17 @@
     float: none;
     margin: 0;
     width: 100%;
-    height: 80%;
+    height: 60%;
   }
 
   img {
     width: 80%;
     
  }
-  
+ .tags,
+ .home-page h1:before,
+ .home-page h1:after {
+   display: none;
+ }
   
 }
