@@ -1,5 +1,6 @@
 import './index.scss'
-
+import AnimatedLetters from '../AnimatedLetters'
+import { useEffect, useState } from 'react'
 import { ReactComponent as WorkIcon } from './work.svg'
 import { ReactComponent as SchoolIcon } from './school.svg'
 
@@ -16,17 +17,26 @@ const Experience = () => {
   let workIconStyles = { background: '#06D6A0' }
   let schoolIconStyles = { background: '#f9c74f' }
 
+  const [letterClass, setLetterClass] = useState('text-animate')
+
+  useEffect(() => {
+    return setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 3000)
+  }, [])
   return (
     <>
       <div className="container experience-page">
-        {/* <h1 className="title">Timeline</h1> */}
+        <h1 className="page-title">
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={['P', 'R', 'O', 'J', 'E', 'C', 'T', 'S']}
+            idx={15}
+          />
+        </h1>
         <VerticalTimeline>
           {timelineElements.map((element) => {
             let isWorkIcon = element.icon === 'work'
-            // let showButton =
-            //   element.buttonText !== undefined &&
-            //   element.buttonText !== null &&
-            //   element.buttonText !== "";
 
             return (
               <VerticalTimelineElement

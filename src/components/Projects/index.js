@@ -45,7 +45,7 @@ const Projects = () => {
             idx={15}
           />
         </h1>
-        <p>
+        <p className="text">
           I have a desire to learn about the newest technologies and put these
           technologies into practice through coding. Below are some of the react
           projects that I have Created. My GitHub is also linked which contains

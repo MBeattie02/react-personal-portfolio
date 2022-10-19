@@ -1,6 +1,24 @@
 
 .experience-page {
     overflow: auto;
+
+
+    h1.page-title {
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+  
+  h1 {
+      margin-left: 100px;
+      margin-top: 100px;
+          color: #fff;
+      font-size: 56px;
+      line-height: 53px;
+      margin-left: 100px;
+      margin-top: 100px;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+  }
   
 
     .vertical-timeline-element-date{
@@ -66,6 +84,10 @@
         color: rgb(0, 0, 0);
         margin-top: 1.5em;
         }
+
+        .tags{
+              display: none;
+            }
 
     }
   }
