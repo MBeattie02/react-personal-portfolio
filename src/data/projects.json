@@ -19,12 +19,23 @@
             "url": "https://matthew-crypto.netlify.app/"
         },
         {
+            "cover": "/projects/1/proshop.png",
+            "title": "ProShop",
+            "description": "MERN eCommerce platform",
+            "url": "https://proshopmernapps.herokuapp.com"
+        },
+        {
+            "cover": "/projects/1/carDatabase.png",
+            "title": "Car Database",
+            "description": "Springboot & React app",
+            "url": "https://cardatabase.netlify.app"
+        },
+        {
             "cover": "/projects/1/Github.png",
             "title": "Other Git Hub Projects",
             "description": "Git Hub Projects",
             "url": "https://github.com/MBeattie02?tab=repositories"
         }
-      
        
     ]
 }
