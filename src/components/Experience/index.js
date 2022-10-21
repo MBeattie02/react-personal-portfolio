@@ -30,8 +30,8 @@ const Experience = () => {
         <h1 className="page-title">
           <AnimatedLetters
             letterClass={letterClass}
-            strArray={['P', 'R', 'O', 'J', 'E', 'C', 'T', 'S']}
-            idx={15}
+            strArray={['E', 'X', 'P', 'E', 'R', 'I', 'E', 'N', 'C', 'E']}
+            idx={12}
           />
         </h1>
         <VerticalTimeline>
