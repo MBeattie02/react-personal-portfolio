@@ -3,6 +3,8 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { ReactComponent as WorkIcon } from './work.svg'
 import { ReactComponent as SchoolIcon } from './school.svg'
+import { ReactComponent as OracleIcon } from './oracle.svg'
+import { ReactComponent as QueensIcon } from './queens.svg'
 
 import timelineElements from './timelineElements'
 
@@ -16,6 +18,8 @@ import 'react-vertical-timeline-component/style.min.css'
 const Experience = () => {
   let workIconStyles = { background: '#06D6A0' }
   let schoolIconStyles = { background: '#f9c74f' }
+  let OracleIconStyles = { background: '#000000' }
+  let QueensIconStyles = { background: '#000000' }
 
   const [letterClass, setLetterClass] = useState('text-animate')
 
@@ -37,13 +41,15 @@ const Experience = () => {
         <VerticalTimeline>
           {timelineElements.map((element) => {
             let isWorkIcon = element.icon === 'work'
+            let isSchoolIcon = element.icon === 'school'
+            let isOracleIcon = element.icon === 'oracle'
 
             return (
               <VerticalTimelineElement
                 key={element.key}
                 date={element.date}
-                iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
-                icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
+                iconStyle={isWorkIcon ? workIconStyles : isSchoolIcon ? schoolIconStyles : isOracleIcon ? OracleIconStyles : QueensIconStyles}
+                icon={isWorkIcon ? <WorkIcon /> : isSchoolIcon ? <SchoolIcon /> : isOracleIcon ? <OracleIcon/> : <QueensIcon/>}
               >
                 <h3 className="vertical-timeline-element-title">
                   {element.title}

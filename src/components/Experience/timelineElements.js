@@ -1,3 +1,4 @@
+
 let timelineElements = [
   {
     id: 1,
@@ -7,7 +8,7 @@ let timelineElements = [
       'Oracle: Back-end and Front-end development on internal tools used by members of the Oracle Cloud Commerce team with technologies including java, Jenkins, Kubernetes, JS(React)',
 
     date: 'August 2022 - present',
-    icon: 'work',
+    icon: 'oracle',
   },
   {
     id: 2,
@@ -25,7 +26,7 @@ let timelineElements = [
       </span>
     ),
     date: 'June 2020 - August 2024',
-    icon: 'school',
+    icon: 'queens',
   },
   {
     id: 3,
@@ -45,7 +46,7 @@ let timelineElements = [
     ),
     //buttonText: 'View Backend Projects',
     date: 'June 2020 - August 2024',
-    icon: 'school',
+    icon: 'queens',
   },
   {
     id: 4,
