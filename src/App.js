@@ -6,6 +6,7 @@ import Layout from './components/Layout'
 import Portfolio from './components/Portfolio'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
+import WrongPage from './components/WrongPage'
 
 import './App.scss'
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/*" element={<WrongPage />} />
         </Route>
       </Routes>
     </>
