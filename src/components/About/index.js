@@ -34,6 +34,9 @@ const About = () => {
           </h1>
           <p>Computer Science Student at Queens University Belfast</p>
           <p>Currently Completing A Years Placement At Oracle</p>
+          <button className="btn" onClick={() => window.open("https://drive.google.com/file/d/1SRGo-sfX0MJhX6FnuNVccb3kICHPSUN1/view?usp=sharing")}>
+                  VIEW MY CV
+                </button>
         </div>
 
         <div className="stage-cube-cont">

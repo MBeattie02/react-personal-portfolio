@@ -19,7 +19,7 @@ const Experience = () => {
   let workIconStyles = { background: '#06D6A0' }
   let schoolIconStyles = { background: '#f9c74f' }
   let OracleIconStyles = { background: '#000000' }
-  let QueensIconStyles = { background: '#000000' }
+  let QueensIconStyles = { background: '#FFFFFF' }
 
   const [letterClass, setLetterClass] = useState('text-animate')
 
