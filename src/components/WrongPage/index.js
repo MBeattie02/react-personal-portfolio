@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import AnimatedLetters from '../AnimatedLetters'
 import wrong from './wrong.png'
 
 import './index.scss'
