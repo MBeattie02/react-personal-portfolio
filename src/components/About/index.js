@@ -1,16 +1,16 @@
 import { useEffect, useState } from 'react'
 import {
   faJava,
-  faCss3,
   faGitAlt,
-  faJs,
   faDocker,
+  faLinux,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
+import { faCloud } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -45,16 +45,16 @@ const About = () => {
               <FontAwesomeIcon icon={faJava} color="#DD0031" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faJs} color="#F06529" />
+              <FontAwesomeIcon icon={faCloud} color="#FF0000" />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+              <FontAwesomeIcon icon={faLinux} color="#000000" />
             </div>
             <div className="face4">
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
             </div>
             <div className="face5">
-              <FontAwesomeIcon icon={faDocker} color="#EFD81D" />
+              <FontAwesomeIcon icon={faDocker} color="#1E90FF" />
             </div>
             <div className="face6">
               <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />

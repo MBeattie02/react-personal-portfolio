@@ -13,60 +13,10 @@
             "url": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=3E299C25CD1E07D9B791DE0E4899CCE15446A6E982A44BD42263FD79816E41DB"
         },
         {
-            "cover": "/portfolio/1/sql.png",
-            "title": "Oracle SQL Explorer",
-            "description": "Oracle SQL Explorer Training",
-            "url": "https://mylearn.oracle.com/ou/learning-path/oracle-sql-explorer/79918"
-        },
-        {
-            "cover": "/portfolio/1/javaExplorer.png",
-            "title": "Oracle Java Explorer",
-            "description": "Oracle Java Explorer Training",
-            "url": "https://mylearn.oracle.com/ou/learning-path/java-explorer/79726"
-        },
-        {
-            "cover": "/portfolio/1/CloudNative.png",
-            "title": "Oracle Cloud Native Developer Explorer",
-            "description": "Oracle Cloud Native Developer Explorer Training",
-            "url": "https://mylearn.oracle.com/ou/learning-path/cloud-native-development-explorer/79404"
-        },
-        {
-            "cover": "/portfolio/1/OKE.png",
-            "title": "Oracle Container Engine for Kubernetes Basics",
-            "description": "Oracle Container Engine for Kubernetes",
-            "url": "https://drive.google.com/file/d/19nEre98jczP2ZTdqaYwuZlpux3yEz-nE/view?usp=share_link"
-        },
-        {
-            "cover": "/portfolio/1/googlekubernetes.png",
-            "title": "Google Cloud",
-            "description": "Deploy Kubernetes in Google Cloud",
-            "url": "https://www.cloudskillsboost.google/public_profiles/8aca73f7-a2be-486e-84b6-ce816b2912a5/badges/3258460"
-        },
-        {
-            "cover": "/portfolio/1/five.png",
-            "title": "LinkedIn",
-            "description": "Become a full stack web developer",
-            "url": "https://drive.google.com/drive/folders/1EN8x-gS2RQGldvBrRatp4xh44cyJhFoP?usp=sharing"
-        },
-        {
-            "cover": "/portfolio/1/four.png",
-            "title": "LinkedIn",
-            "description": "Become a React Developer",
-            "url": "https://drive.google.com/drive/folders/1EN8x-gS2RQGldvBrRatp4xh44cyJhFoP?usp=sharing"
-        },
-        {
-            "cover": "/portfolio/1/two.png",
-            "title": "LinkedIn",
-            "description": "Postman Essential Training",
-            "url": "https://drive.google.com/drive/folders/1CKceCBniDK2Pzabrdljnsd7a5L_uaa3D?usp=sharing"
-        },
-        {
-            "cover": "/portfolio/1/three.png",
-            "title": "LinkedIn",
-            "description": "Master cloud Native Infastructure",
-            "url": "https://drive.google.com/drive/folders/1yg2n7UwQm7iyEoNvqqVOPkeDyWLwrQt5?usp=sharing"
+            "cover": "/portfolio/1/OCI2022CAA.jpg",
+            "title": "Oracle Cloud",
+            "description": "Oracle Cloud Infrastructure 2022 Certified Architect Associate",
+            "url": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=9E0DFA0C5B7DAC0106DA451FB8B202643254ACAAC6A0E35FCD6AF3098B6057A0"
         }
-      
-       
     ]
 }

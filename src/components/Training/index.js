@@ -3,9 +3,9 @@ import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import portfolioData from '../../data/portfolio.json'
+import trainingData from '../../data/training.json'
 
-const Portfolio = () => {
+const Training = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   useEffect(() => {
@@ -14,16 +14,16 @@ const Portfolio = () => {
     }, 3000)
   }, [])
 
-  const renderPortfolio = (portfolio) => {
+  const renderTraining = (training) => {
     return (
       <div className="images-container">
-        {portfolio.map((port, idx) => {
+        {training.map((port, idx) => {
           return (
             <div className="image-box" key={idx}>
               <img
                 src={port.cover}
-                className="portfolio-image"
-                alt="portfolio"
+                className="training-image"
+                alt="training"
               />
               <div className="content">
                 <p className="title">{port.title}</p>
@@ -41,37 +41,31 @@ const Portfolio = () => {
 
   return (
     <>
-      <div className="container portfolio-page">
+      <div className="container training-page">
         <h1 className="page-title">
           <AnimatedLetters
             letterClass={letterClass}
             strArray={[
-              'C',
-              'E',
+              'T',
               'R',
-              'T',
-              'I',
-              'F',
-              'I',
-              'C',
               'A',
-              'T',
               'I',
-              'O',
               'N',
-              'S',
+              'I',
+              'N',
+              'G',
             ]}
             idx={15}
           />
         </h1>
-        <p>
-          Below are the certifications I have completed to show my understanding of both Java and Oracle Cloud Infastructure
+        <p className="text">
+          Below are some training courses I have carried out to continue to develop my knowledge 
         </p>
-        <div>{renderPortfolio(portfolioData.portfolio)}</div>
+        <div>{renderTraining(trainingData.training)}</div>
       </div>
       <Loader type="pacman" />
     </>
   )
 }
 
-export default Portfolio
+export default Training

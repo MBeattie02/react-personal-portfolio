@@ -42,7 +42,8 @@
 .container.about-page,
 .container.portfolio-page,
 .container.projects-page,
-.container.experience-page
+.container.experience-page,
+.container.training-page
 {
   
     h1 {
@@ -131,7 +132,8 @@
     &.projects-page,
     &.contact-page,
     &.about-page,
-    &.portfolio-page  {
+    &.portfolio-page,
+    &.training-page  {
       .text-zone {
         position: initial;
         transform: none;
@@ -144,7 +146,8 @@
     }
     &.about-page,
     &.projects-page,
-    &.portfolio-page {
+    &.portfolio-page,
+    &.training-page {
       width: 100%;
       padding: 20px;
       box-sizing: border-box;

@@ -13,6 +13,7 @@ import {
   faClose,
   faM,
   faBarsProgress,
+  faChalkboardUser,
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
@@ -78,6 +79,16 @@ const Sidebar = () => {
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faScroll} color="#4d4d4e" />
+        </NavLink>
+
+        {/* Training */}
+        <NavLink
+          activeclassname="active"
+          className="training-link"
+          to="/training"
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faChalkboardUser} color="#4d4d4e" />
         </NavLink>
 
         {/* Projects */}
