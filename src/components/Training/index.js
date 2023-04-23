@@ -46,14 +46,20 @@ const Training = () => {
           <AnimatedLetters
             letterClass={letterClass}
             strArray={[
-              'T',
-              'R',
+              'S',
+              'E',
+              'L',
+              'F',
+              '',
+              'L',
+              'E',
               'A',
-              'I',
+              'R',
               'N',
               'I',
               'N',
               'G',
+
             ]}
             idx={15}
           />
