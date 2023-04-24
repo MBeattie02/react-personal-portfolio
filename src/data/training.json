@@ -1,6 +1,12 @@
 {
     "training": [
         {
+            "cover": "/training/1/linuxbadge.png",
+            "title": "Oracle Linux: System Administration on OCI",
+            "description": "Oracle Linux: System Administration on OCI traning",
+            "url": "https://mylearn.oracle.com/ou/learning-path/oracle-linux-system-administration-on-oci/110062"
+        },
+        {
             "cover": "/training/1/sql.png",
             "title": "Oracle SQL Explorer",
             "description": "Oracle SQL Explorer Training",
