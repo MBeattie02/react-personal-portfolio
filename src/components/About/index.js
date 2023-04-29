@@ -33,7 +33,11 @@ const About = () => {
             />
           </h1>
           <p>Computer Science Student at Queens University Belfast</p>
-          <p>Currently Completing A Years Placement At Oracle</p>
+          <p>Currently Completing A Years Placement At Oracle working within Oracle Unity</p>
+          <p>A passionate software engineer with a strong interest in evolving and emerging new technologies, 
+            highly organised and conscientious with an ability to quickly 
+            learn new concepts and technologies. Currently seeking a challenging but rewarding role to develop technical 
+            capabilities, personal skills and build future career foundations.</p>
           <button className="btn" onClick={() => window.open("https://drive.google.com/file/d/1SRGo-sfX0MJhX6FnuNVccb3kICHPSUN1/view?usp=sharing")}>
                   VIEW MY CV
                 </button>
