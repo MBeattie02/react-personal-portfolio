@@ -35,7 +35,12 @@
             "title": "Other Git Hub Projects",
             "description": "Git Hub Projects",
             "url": "https://github.com/MBeattie02?tab=repositories"
+        },
+        {
+            "cover": "/projects/1/docker.png",
+            "title": "Docker Hub",
+            "description": "Docker Hub Account",
+            "url": "https://hub.docker.com/u/mabeatti"
         }
-       
     ]
 }
