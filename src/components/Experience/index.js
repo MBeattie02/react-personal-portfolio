@@ -5,6 +5,9 @@ import { ReactComponent as WorkIcon } from './work.svg'
 import { ReactComponent as SchoolIcon } from './school.svg'
 import { ReactComponent as OracleIcon } from './oracle.svg'
 import { ReactComponent as QueensIcon } from './queens.svg'
+import { ReactComponent as VoteIcon } from './vote.svg'
+import { ReactComponent as SuperIcon } from './supervalu.svg'
+import { ReactComponent as YellowIcon } from './yellowdoor.svg'
 
 import timelineElements from './timelineElements'
 
@@ -20,6 +23,9 @@ const Experience = () => {
   let schoolIconStyles = { background: '#f9c74f' }
   let OracleIconStyles = { background: '#000000' }
   let QueensIconStyles = { background: '#FFFFFF' }
+  let VoteIconStyles = { background: '#FFFFFF' }
+  let SuperIconStyles = { background: '#FFFFFF' }
+  let YellowIconStyles = { background: '#FFFFFF' }
 
   const [letterClass, setLetterClass] = useState('text-animate')
 
@@ -43,19 +49,25 @@ const Experience = () => {
             let isWorkIcon = element.icon === 'work'
             let isSchoolIcon = element.icon === 'school'
             let isOracleIcon = element.icon === 'oracle'
+            let isQueensIcon = element.icon === 'queens'
+            let isVoteIcon = element.icon === 'vote'
+            let isSuperIcon = element.icon === 'super'
 
             return (
               <VerticalTimelineElement
                 key={element.key}
                 date={element.date}
-                iconStyle={isWorkIcon ? workIconStyles : isSchoolIcon ? schoolIconStyles : isOracleIcon ? OracleIconStyles : QueensIconStyles}
-                icon={isWorkIcon ? <WorkIcon /> : isSchoolIcon ? <SchoolIcon /> : isOracleIcon ? <OracleIcon/> : <QueensIcon/>}
+                iconStyle={isWorkIcon ? workIconStyles : isSchoolIcon ? schoolIconStyles : isOracleIcon ? OracleIconStyles : isQueensIcon ? QueensIconStyles : isVoteIcon ? VoteIconStyles : isSuperIcon ? SuperIconStyles : YellowIconStyles}
+                icon={isWorkIcon ? <WorkIcon /> : isSchoolIcon ? <SchoolIcon /> : isOracleIcon ? <OracleIcon/> : isQueensIcon ? <QueensIcon/> : isVoteIcon ? <VoteIcon/> : isSuperIcon ? <SuperIcon/> : <YellowIcon/>}
               >
                 <h3 className="vertical-timeline-element-title">
                   {element.title}
                 </h3>
-                <h5 className="vertical-timeline-element-subtitle">
+                <h4 className="vertical-timeline-element-subtitle">
                   {element.location}
+                </h4>
+                <h5 className="vertical-timeline-element-subtitle">
+                  {element.type}
                 </h5>
                 <p id="description">{element.description}</p>
               </VerticalTimelineElement>
