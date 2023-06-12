@@ -43,10 +43,10 @@ let timelineElements = [
     type: 'PART-TIME JOB',
     description:(
       <ul>
-        <li>As a guide for university open day, my role is to provide prospective students with an informative and engaging experience</li>
+        <li>As a guide for university open days, my role is to provide prospective students with an informative and engaging experience</li>
         <li>I use effective communication to allow me to articulate information clearly and adapt my style to suit different individuals or groups</li>
-        <li>I am also approachable and empathetic as open days can be overwhelming, so I strive to create a welcoming and comfortable environment for visitors</li>
-        <li>I listen attentively to their concerns and needs, and Im patient in addressing their individual questions</li>
+        <li>I am approachable and empathetic as open days can be overwhelming, so I strive to create a welcoming and comfortable environment for visitors</li>
+        <li>I listen attentively to their concerns and needs, and I'm patient in addressing their individual questions</li>
       </ul>
     ),
     date: 'June 2023 - present',
@@ -59,7 +59,7 @@ let timelineElements = [
     type: 'PART-TIME JOB',
     description:(
       <ul>
-      <li>The poll clerk plays a vital role in elections by assisting with the smooth operation of polling stations.</li> 
+      <li>Poll clerk plays a vital role in elections by assisting with the smooth operation of polling stations.</li> 
       <li>Responsibilities include setting up and closing the station, assisting voters, maintaining order and security, completing administrative tasks, collaborating with the presiding officer and other poll workers, and upholding electoral laws and regulations</li>
       <li>This role is crucial in ensuring a fair and efficient electoral process</li>
       </ul>
@@ -107,7 +107,7 @@ let timelineElements = [
     type: 'EDUCATION',
     description: (
       <span>
-        <h2>2nd Year Computer Science Modules </h2>
+        <h6>2nd Year Computer Science Modules </h6>
       <ul>
         <li>Cyber Security Fundamentals</li>
         <li>Software Engineering and Systems Development</li>
@@ -127,7 +127,7 @@ let timelineElements = [
     type: 'EDUCATION',
     description: (
       <span>
-        <h2>1st Year Computer Science Modules </h2>
+        <h6>1st Year Computer Science Modules </h6>
       <ul>
         <li>Architecture and Networks</li>
         <li>Databases</li>
@@ -149,7 +149,7 @@ let timelineElements = [
     type: 'EDUCATION',
     description: (
       <span>
-          <h2>A Level: </h2>
+          <h6>A Level: </h6>
         <ul>
           <li>Computer Science (A)</li>
           <li>Maths (A)</li>
@@ -167,7 +167,7 @@ let timelineElements = [
     type: 'EDUCATION',
     description: (
       <span> 
-          <h2>AS Level: </h2>
+          <h6>AS Level: </h6>
         <ul>
           <li>Computer Science (B) </li>
           <li>Maths (A) </li>
@@ -186,7 +186,7 @@ let timelineElements = [
     type: 'EDUCATION',
     description: (
       <span>
-          <h2>GCSE: </h2>
+          <h6>GCSE: </h6>
         <ul>
           <li>Computer Science (A*) </li>
           <li>English Literature (A*) </li>
