@@ -37,6 +37,12 @@
             "url": "https://www.cloudskillsboost.google/public_profiles/8aca73f7-a2be-486e-84b6-ce816b2912a5/badges/3258460"
         },
         {
+            "cover": "/training/1/PostmanStudent Expert.png",
+            "title": "Postman API Fundamentals Student Expert",
+            "description": "Postman Training",
+            "url": "https://api.badgr.io/public/assertions/OLVxfJADRMeybyrsnP5_xQ?identity__email=mbeattie13%40qub.ac.uk"
+        },
+        {
             "cover": "/training/1/IBMK8S.png",
             "title": "IBM Container & Kubernetes Essentials",
             "description": "Introduction to Containers w/ Docker, Kubernetes",
@@ -65,6 +71,12 @@
             "title": "LinkedIn",
             "description": "Master cloud Native Infastructure",
             "url": "https://drive.google.com/drive/folders/1yg2n7UwQm7iyEoNvqqVOPkeDyWLwrQt5?usp=sharing"
+        },
+        {
+            "cover": "/training/1/MongoDB.png",
+            "title": "LinkedIn",
+            "description": "MongoDB Training",
+            "url": "https://drive.google.com/drive/folders/1osDJY7OUspC7pHQ-YBNDUG7J_CjZ_Mdg?usp=sharing"
         }
     ]
 }
