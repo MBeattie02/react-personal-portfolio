@@ -1,4 +1,4 @@
-
+import Award from './Award.png'
 let timelineElements = [
   {
     id: 1,
@@ -30,6 +30,11 @@ let timelineElements = [
         on jenkins to confirm newly developed code was compatible and did not cause issues when
         merging with the existing code base.
       </li>
+      <h6>
+        UK Intern Award
+      </h6>
+      <img src={Award} className="award-image" alt="award" />
+      <li>Awarded the Above and Beyond Award at UK Intern Awards Ceremony. The justification for this was described by my manager for being proactive and a quick learner as well as being eager to learn and consistently gone the extra mile with helping fellow interns complete their tasks.</li>
       </ul>
       </span>
     ),
