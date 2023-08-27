@@ -38,7 +38,7 @@ const About = () => {
             highly organised and conscientious with an ability to quickly 
             learn new concepts and technologies. Currently seeking a challenging but rewarding role to develop technical 
             capabilities, personal skills and build future career foundations.</p>
-          <button className="btn" onClick={() => window.open("https://drive.google.com/file/d/1tuVOKS3428aWOnWNYJZBrO2eVdktzpXd/view?usp=sharing")}>
+          <button className="btn" onClick={() => window.open("https://drive.google.com/drive/folders/1LTicD0EtDttaXPBlClkg60OxazK0H9-c?usp=sharing")}>
                   VIEW MY CV
                 </button>
         </div>
