@@ -5,12 +5,12 @@ import Contact from './components/Contact'
 import Layout from './components/Layout'
 import Portfolio from './components/Portfolio'
 import Experience from './components/Experience'
+import Education from './components/Education'
 import Projects from './components/Projects'
 import WrongPage from './components/WrongPage'
 import Training from './components/Training'
 
 import './App.scss'
-
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/education" element={<Education />} />
           <Route path="/training" element={<Training />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/*" element={<WrongPage />} />

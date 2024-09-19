@@ -5,7 +5,12 @@ import {
   faDocker,
   faLinux,
   faReact,
+  faPython,
+  faJsSquare,
+  faHtml5,
+  faCss3Alt,
 } from '@fortawesome/free-brands-svg-icons'
+import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -32,15 +37,109 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>Computer Science Student at Queens University Belfast</p>
-          <p>Currently Completing A Years Placement At Oracle working within Oracle Unity</p>
-          <p>A passionate software engineer with a strong interest in evolving and emerging new technologies, 
-            highly organised and conscientious with an ability to quickly 
-            learn new concepts and technologies. Currently seeking a challenging but rewarding role to develop technical 
-            capabilities, personal skills and build future career foundations.</p>
-          <button className="btn" onClick={() => window.open("https://drive.google.com/drive/folders/1LTicD0EtDttaXPBlClkg60OxazK0H9-c?usp=sharing")}>
-                  VIEW MY CV
-                </button>
+          <p>Graduate Engineer At Wolfspeed Belfast</p>
+          <p>
+            A passionate software engineer with a strong interest in evolving
+            and emerging new technologies, highly organised and conscientious
+            with an ability to quickly learn new concepts and technologies.
+            Currently seeking a challenging but rewarding role to develop
+            technical capabilities, personal skills and build future career
+            foundations.
+          </p>
+          {/* New Section with Programming Languages */}
+          <div className="programming-languages-section">
+            <h2>Programming and Databases</h2>
+            <div className="language-icons">
+              <div className="icon">
+                <FontAwesomeIcon icon={faJava} color="#DD0031" />
+                <span>Java</span>
+              </div>
+              <div className="icon">
+                <FontAwesomeIcon icon={faPython} color="#3776AB" />
+                <span>Python</span>
+              </div>
+              <div className="icon">
+                <FontAwesomeIcon icon={faJsSquare} color="#F7DF1E" />
+                <span>JavaScript</span>
+              </div>
+              <div className="icon">
+                <FontAwesomeIcon icon={faHtml5} color="#E34C26" />
+                <span>HTML5</span>
+              </div>
+              <div className="icon">
+                <FontAwesomeIcon icon={faCss3Alt} color="#1572B6" />
+                <span>CSS3</span>
+              </div>
+              <div className="icon">
+                <FontAwesomeIcon icon={faDatabase} color="#4DB33D" />
+                <span>SQL</span>
+              </div>
+            </div>
+            <h2>Frameworks</h2>
+            <div className="language-icons">
+              <div className="icon">
+                <FontAwesomeIcon icon={faJava} color="#DD0031" />
+                <span>Java</span>
+              </div>
+              <div className="icon">
+                <FontAwesomeIcon icon={faPython} color="#3776AB" />
+                <span>Python</span>
+              </div>
+              <div className="icon">
+                <FontAwesomeIcon icon={faJsSquare} color="#F7DF1E" />
+                <span>JavaScript</span>
+              </div>
+              <div className="icon">
+                <FontAwesomeIcon icon={faHtml5} color="#E34C26" />
+                <span>HTML5</span>
+              </div>
+              <div className="icon">
+                <FontAwesomeIcon icon={faCss3Alt} color="#1572B6" />
+                <span>CSS3</span>
+              </div>
+              <div className="icon">
+                <FontAwesomeIcon icon={faDatabase} color="#4DB33D" />
+                <span>SQL</span>
+              </div>
+            </div>
+            <h2>Tools and Platforms</h2>
+            <div className="language-icons">
+              <div className="icon">
+                <FontAwesomeIcon icon={faJava} color="#DD0031" />
+                <span>Java</span>
+              </div>
+              <div className="icon">
+                <FontAwesomeIcon icon={faPython} color="#3776AB" />
+                <span>Python</span>
+              </div>
+              <div className="icon">
+                <FontAwesomeIcon icon={faJsSquare} color="#F7DF1E" />
+                <span>JavaScript</span>
+              </div>
+              <div className="icon">
+                <FontAwesomeIcon icon={faHtml5} color="#E34C26" />
+                <span>HTML5</span>
+              </div>
+              <div className="icon">
+                <FontAwesomeIcon icon={faCss3Alt} color="#1572B6" />
+                <span>CSS3</span>
+              </div>
+              <div className="icon">
+                <FontAwesomeIcon icon={faDatabase} color="#4DB33D" />
+                <span>SQL</span>
+              </div>
+            </div>
+          </div>
+          <button
+            className="btn"
+            onClick={() =>
+              window.open(
+                'https://drive.google.com/drive/folders/1LTicD0EtDttaXPBlClkg60OxazK0H9-c?usp=sharing'
+              )
+            }
+          >
+            VIEW MY CV
+          </button>
         </div>
 
         <div className="stage-cube-cont">

@@ -1,33 +1,28 @@
 .contact-form {
   width: 100%;
   margin-top: 20px;
-  overflow: hidden;
- 
+  overflow: visible; 
   
   ul {
     padding: 0;
     margin: 0;
-
+    list-style: none; 
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    gap: 15px; 
+    
     li {
       padding: 0;
       margin: 0;
-      list-style: none;
-      margin-bottom: 10px;
-      opacity: 0;
-      overflow: hidden;
-      display: block;
-      clear: both;
-      position: relative;
-      animation: fadeInUp 2s 2s;
-      animation-fill-mode: forwards;
+      opacity: 1; 
+      box-sizing: border-box; 
+      flex: 1 1 calc(50% - 1%); 
+      min-width: 300px; 
     }
 
     li.half {
-      width: 49%;
-      margin-left: 2%;
-      float: left;
-      clear: none;
-
+      flex: 1 1 calc(50% - 1%); 
+      
       &:first-child {
         margin-left: 0;
       }
@@ -37,51 +32,62 @@
   input[type='text'],
   input[type='email'] {
     width: 100%;
-    border: 0;
-    background: #115173;
+    border: 1px solid #ccc;
+    background: #1e2a38;
     height: 50px;
     font-size: 16px;
     color: #fff;
-    padding: 0 20px;
+    padding: 0 15px;
     box-sizing: border-box;
+    border-radius: 4px;
   }
 
   textarea {
     width: 100%;
-    border: 0;
-    background: #115173;
-    height: 50px;
+    border: 1px solid #ccc;
+    background: #1e2a38;
+    height: auto;
     font-size: 16px;
     color: #fff;
-    padding: 20px;
+    padding: 15px;
     box-sizing: border-box;
     min-height: 150px;
+    border-radius: 4px;
   }
 
   .flat-button {
     color: #ffd700;
-    font-size: 11px;
-    letter-spacing: 3px;
+    font-size: 13px;
+    letter-spacing: 1px; /* Reduced spacing for readability */
     text-decoration: none;
-    padding: 8px 10px;
+    padding: 10px 15px;
     border: 1px solid #ffd700;
-    float: left;
     border-radius: 4px;
-    background: 0 0;
+    background: transparent;
     text-transform: uppercase;
-    float: right;
     text-align: center;
     margin-right: 10px;
+    display: inline-block;
+    transition: background 0.3s, color 0.3s;
+    
+    &:hover {
+      background: #ffd700;
+      color: #333;
+    }
   }
 }
 
 .map-wrap {
-  background: rgba(8, 253, 216, 0.1);
+  background: rgba(30, 30, 30, 0.8); 
   float: right;
-  width: 53%;
-  height: 110%;
-  margin-top: -3%;
-  text-align: center;
+  width: 100%; 
+  max-width: 600px; 
+  height: 60vh;
+  margin-top: 100px; 
+  padding: 15px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); 
+  position: relative;
 }
 
 .leaflet-container {
@@ -94,29 +100,9 @@
 }
 
 img {
-  margin-top: -5%;
-  width: 90%;
-  height: 90%;
+  width: 60%; 
+  height: auto;
+  border-radius: 10px; 
+
 }
 
-
-
-@media screen and (max-width: 1200px) {
-  .map-wrap {
-    float: none;
-    margin: 0;
-    width: 100%;
-    height: 60%;
-  }
-
-  img {
-    width: 80%;
-    
- }
- .tags,
- .home-page h1:before,
- .home-page h1:after {
-   display: none;
- }
-  
-}

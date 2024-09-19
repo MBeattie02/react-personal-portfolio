@@ -1,141 +1,172 @@
-.home-page {
- 
 
+:root {
+  --background-dark: linear-gradient(135deg, #2c2c2c, #1c1c1c); 
+  --text-dark: #e0e0e0; 
+  --accent-color: #ff6f61; 
+  --border-dark: #444; 
+  --shadow-dark: rgba(0, 0, 0, 0.7); 
+}
+
+/* Home page styling */
+.home-page {
+  background: var(--background-dark);
+  color: var(--text-dark);
+  
   h1 {
-    color: #fff;
+    color: var(--text-dark);
     font-size: 60px;
     line-height: 70px;
     margin: 0;
-    font-family: 'Coolvetica';
-    font-weight: 400;
-  
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
 
     &:before {
       content: '<h1>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
+      font-family: 'Raleway', sans-serif; 
+      color: var(--accent-color);
       font-size: 18px;
       position: absolute;
       margin-top: -40px;
       left: -15px;
-      opacity: 0.6;
+      opacity: 0.7;
     }
 
     &:after {
       content: '<h1/>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
+      font-family: 'Raleway', sans-serif; 
+      color: var(--accent-color);
       font-size: 18px;
-      position: absolute;
-      margin-top: 18px;
-      margin-left: 20px;
+      display: block;
+      opacity: 0.7;
       animation: fadeIn 1s 1.7s backwards;
-      opacity: 0.6;
-    }
-  
-
-    img {
-      margin-left: 20px;
-      opacity: 0;
-      width: 32px;
-      height: auto;
-      animation: rotateIn 1s linear both;
-      animation-delay: 1.4s;
     }
   }
 
-  h2 {
-    color: #a59b9b;
+  h3 {
+    color: var(--text-dark);
     margin-top: 20px;
     font-weight: 400;
-    font-size: 15px;
-    font-family: sans-serif;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
   }
 
   .flat-button {
-    color: #ffd700;
+    color: var(--accent-color);
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     padding: 10px 18px;
-    border: 1px solid #ffd700;
+    border: 1px solid var(--accent-color);
     margin-top: 25px;
     float: left;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
 
     &:hover {
-      background: #ffd700;
-      color: #333;
+      background: var(--accent-color);
+      color: var(--background-dark); 
     }
   }
 
-  img {
-   
-    animation: rotateIn 1s linear both;
-    animation-delay: 1.4s;
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35%;
+    max-height: 90%;
   }
 
+
+
+  /* Add to index.scss */
+.introduction {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px; /* Ensures the text doesn't stretch too wide */
+  background: rgba(30, 30, 30, 0.8); /* Matches the dark theme */
+  color: var(--text-dark); /* Light text color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Enhanced shadow for depth */
+  text-align: center; /* Center the text */
 }
 
-.text-zone {
-  position: absolute;
-  left: 10%;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 40%;
-  max-height: 90%;
+.introduction p {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+}
+
+.home-image {
+  display: block;
+  max-width: 300px; /* Fixed width for the image */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px auto; /* Center the image horizontally with vertical spacing */
+  padding: 15px; /* Increase padding for better visual separation */
+  border: 6px solid var(--border-dark); /* Solid border for a cleaner look */
+  border-radius: 20px; /* More rounded corners for a modern feel */
+  box-shadow: 0 4px 8px var(--shadow-dark); /* Subtle shadow for depth */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+  
+  /* Centering the image in its container */
+  display: block;
+  margin: 0 auto; /* Center image within its container */
 }
 
 .section-right {
-  background: rgba(8, 253, 216, 0.1);
+  background: rgba(30, 30, 30, 0.8); /* Darker, semi-transparent background for a more cohesive dark theme */
   float: right;
-  width: 50%;
-  height: 115%;
-  margin-top: -3%;
+  width: 35%; /* Increased width for better balance with the main content */
+  min-height: 100vh; /* Full viewport height to make the section larger */
+  margin-top: 0; /* Align with the top of the container */
+  padding: 20px; /* Padding for better content spacing */
   text-align: center;
+  border-radius: 15px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Adjusted shadow for a slightly more compact design */
+  backdrop-filter: blur(8px); /* Slightly less blur for a subtler effect */
+  position: relative; /* Allows for additional positioning of child elements */
+}
+  
+  .home-image:hover {
+    border-color: #2ecc71; /* Change border color on hover */
+    box-shadow: 0 8px 16px var(--shadow-dark); /* Enhanced shadow on hover */
+  }
 }
 
-
-@media screen and (max-width: 1200px) {
-  .tags{
-  // .home-page h1:before,
-  // .home-page h1:after {
-    display: none;
+/* Keyframe animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-
-  .home-page .text-zone {
-    position: initial;
-    width: 100%;
-    transform: none;
-    padding: 10px;
-    box-sizing: border-box;
+  to {
+    opacity: 1;
   }
+}
 
-  .home-page .flat-button {
-    float: none;
-    display: block;
-    margin: 20px auto 0 auto;
-    width: 124px;
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
   }
-
-  .section-right {
-    float: none;
-    margin: 0;
-    width: 100%;
-    height: 60%;
+  50% {
+    transform: scale(1.05);
+    opacity: 0.8;
   }
-    
-  h1.page-title{
-    font-size: 8px;
+  100% {
+    transform: scale(1);
+    opacity: 1;
   }
+}
 
-  
-
- 
- 
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

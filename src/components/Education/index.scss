@@ -1,0 +1,110 @@
+.experience-page {
+    padding-left: 100px;
+    padding-right: 50px;
+    width: 90%;
+    height: 100vh; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    position: relative;
+    overflow: auto;
+
+    .award-image {
+        margin-top: 10px;
+    }
+
+
+    h1.page-title {
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+    h1 {
+        margin-left: 100px;
+        margin-top: 100px;
+        color: #fff;
+        font-size: 56px;
+        line-height: 53px;
+        margin-left: 100px;
+        margin-top: 100px;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+    }
+
+
+    .vertical-timeline-element-date {
+        color: rgb(255, 255, 255);
+        font-size: 100px;
+        font-weight: bolder;
+    }
+
+
+    .title {
+        font-size: 15em;
+        text-align: center;
+        font-family: "Bebas Neue", sans-serif;
+        color: red;
+    }
+
+    h3 {
+        padding-top: 0.25em;
+
+    }
+
+    h5 {
+        padding-top: 0.25em;
+    }
+
+    .vertical-timeline-element-content {
+        box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+            0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+        padding: 2em 3em !important;
+    }
+
+
+
+    #description {
+        margin: 1.5em 0 2em 0;
+        color: black;
+    }
+
+    .button {
+        text-decoration: none;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .workButton {
+        background-color: #06d6a0;
+    }
+
+    .workButton:hover {
+        background-color: #0ac593;
+    }
+
+    .schoolButton {
+        background-color: #f9c74f;
+    }
+
+    .schoolButton:hover {
+        background-color: #f3bc3c;
+    }
+
+    @media only screen and (max-width: 1100px) {
+        .vertical-timeline-element-date {
+            display: block !important;
+            float: none !important;
+            color: rgb(0, 0, 0);
+            margin-top: 1.5em;
+        }
+
+        .tags {
+            display: none;
+        }
+
+
+        h1.page-title {
+            font-size: 50PX;
+        }
+    }
+}
