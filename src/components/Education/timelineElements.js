@@ -1,4 +1,3 @@
-import Award from './Award.png'
 let timelineElements = [
   {
     id: 1,
