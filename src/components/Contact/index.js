@@ -89,9 +89,7 @@ const Contact = () => {
         </div>
 
         <div className="map-wrap">
-          <Tilt>
-            <img id={person} src={person} alt="avatar" />
-          </Tilt>
+          <img id={person} src={person} alt="avatar" />
         </div>
       </div>
       <Loader type="pacman" />

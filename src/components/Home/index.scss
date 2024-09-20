@@ -1,4 +1,3 @@
-
 :root {
   --background-dark: linear-gradient(135deg, #2c2c2c, #1c1c1c); 
   --text-dark: #e0e0e0; 
@@ -81,59 +80,54 @@
     max-height: 90%;
   }
 
+  .introduction {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; 
+    background: rgba(30, 30, 30, 0.8); 
+    color: var(--text-dark); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); 
+    text-align: center; 
+  }
 
+  .introduction p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+  }
 
-  /* Add to index.scss */
-.introduction {
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 800px; /* Ensures the text doesn't stretch too wide */
-  background: rgba(30, 30, 30, 0.8); /* Matches the dark theme */
-  color: var(--text-dark); /* Light text color */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Enhanced shadow for depth */
-  text-align: center; /* Center the text */
-}
+  .home-image {
+    display: block;
+    max-width: 300px;
+    height: auto; 
+    margin: 20px auto;
+    padding: 15px; 
+    border: 6px solid var(--border-dark);
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px var(--shadow-dark); 
+    transition: border-color 0.3s, box-shadow 0.3s; 
+    display: block;
+    margin: 0 auto; 
+  }
 
-.introduction p {
-  font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.6;
-}
-
-.home-image {
-  display: block;
-  max-width: 300px; /* Fixed width for the image */
-  height: auto; /* Maintain aspect ratio */
-  margin: 20px auto; /* Center the image horizontally with vertical spacing */
-  padding: 15px; /* Increase padding for better visual separation */
-  border: 6px solid var(--border-dark); /* Solid border for a cleaner look */
-  border-radius: 20px; /* More rounded corners for a modern feel */
-  box-shadow: 0 4px 8px var(--shadow-dark); /* Subtle shadow for depth */
-  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
-  
-  /* Centering the image in its container */
-  display: block;
-  margin: 0 auto; /* Center image within its container */
-}
-
-.section-right {
-  background: rgba(30, 30, 30, 0.8); /* Darker, semi-transparent background for a more cohesive dark theme */
-  float: right;
-  width: 35%; /* Increased width for better balance with the main content */
-  min-height: 100vh; /* Full viewport height to make the section larger */
-  margin-top: 0; /* Align with the top of the container */
-  padding: 20px; /* Padding for better content spacing */
-  text-align: center;
-  border-radius: 15px; /* Rounded corners for a modern look */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Adjusted shadow for a slightly more compact design */
-  backdrop-filter: blur(8px); /* Slightly less blur for a subtler effect */
-  position: relative; /* Allows for additional positioning of child elements */
-}
+  .section-right {
+    background: rgba(30, 30, 30, 0.8); 
+    float: right;
+    width: 50%; 
+    min-height: 100vh; 
+    margin-top: 0; 
+    padding: 20px; 
+    text-align: center;
+    border-radius: 15px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px); 
+    position: relative; 
+  }
   
   .home-image:hover {
-    border-color: #2ecc71; /* Change border color on hover */
-    box-shadow: 0 8px 16px var(--shadow-dark); /* Enhanced shadow on hover */
+    border-color: #2ecc71; 
+    box-shadow: 0 8px 16px var(--shadow-dark); 
   }
 }
 
@@ -168,5 +162,69 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    overflow: auto !important;
+  }
+
+  .text-zone {
+    position: static;
+    transform: none;
+    width: 100%;
+    margin: 0 auto;
+    max-height: none;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 36px !important;
+    line-height: 45px !important;
+  
+    &:before,
+    &:after {
+      font-size: 14px !important;
+      left: -10px !important;
+    }
+  }
+
+  h3 {
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+
+  .flat-button {
+    font-size: 11px;
+    padding: 8px 15px;
+    letter-spacing: 3px;
+  }
+
+  .section-right {
+    width: 100% !important; 
+    min-height: auto; 
+    margin-top: 20px; 
+    padding: 15px; 
+    float: none; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-image {
+    max-width: 100%;
+    margin: 15px auto;
+  }
+
+  .introduction {
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 90%;
   }
 }
