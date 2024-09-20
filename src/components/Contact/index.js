@@ -4,7 +4,6 @@ import person from './QR.png'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
-import Tilt from 'react-parallax-tilt'
 import './index.scss'
 
 const Contact = () => {
