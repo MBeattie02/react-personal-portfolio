@@ -5,12 +5,7 @@ import {
   faDocker,
   faLinux,
   faReact,
-  faPython,
-  faJsSquare,
-  faHtml5,
-  faCss3Alt,
 } from '@fortawesome/free-brands-svg-icons'
-import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
