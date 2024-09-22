@@ -7,7 +7,7 @@ let timelineElements = [
     type: 'Full-Time Graduate Job',
     description: (
       <ul>
-        <li>Graduate</li>
+        <li>Graduate Engineer Working in Belfast Office</li>
       </ul>
     ),
     date: 'June 2023 - present',

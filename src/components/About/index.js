@@ -16,6 +16,14 @@ import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 import { faCloud } from '@fortawesome/free-solid-svg-icons'
+import { DiJava, DiPython, DiMongodb, DiNodejs, DiMysql } from 'react-icons/di'
+import { FaReact, FaAws, FaDocker, FaLinux, FaGitAlt } from 'react-icons/fa'
+import {
+  SiFlask,
+  SiSpringboot,
+  SiMicrosoftazure,
+  SiKubernetes,
+} from 'react-icons/si'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -51,82 +59,192 @@ const About = () => {
             <h2>Programming and Databases</h2>
             <div className="language-icons">
               <div className="icon">
-                <FontAwesomeIcon icon={faJava} color="#DD0031" />
-                <span>Java</span>
+                <DiJava color="#FFFFFF" size={90} />
+                <span
+                  style={{
+                    fontFamily: 'Helvetica, Arial, sans-serif',
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                    color: '#FFFFFF',
+                  }}
+                >
+                  Java
+                </span>
               </div>
               <div className="icon">
-                <FontAwesomeIcon icon={faPython} color="#3776AB" />
-                <span>Python</span>
+                <DiPython color="#FFFFFF" size={90} />
+                <span
+                  style={{
+                    fontFamily: 'Helvetica, Arial, sans-serif',
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                    color: '#FFFFFF',
+                  }}
+                >
+                  Python
+                </span>
               </div>
               <div className="icon">
-                <FontAwesomeIcon icon={faJsSquare} color="#F7DF1E" />
-                <span>JavaScript</span>
+                <DiMysql color="#FFFFFF" size={90} />
+                <span
+                  style={{
+                    fontFamily: 'Helvetica, Arial, sans-serif',
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                    color: '#FFFFFF',
+                  }}
+                >
+                  SQL
+                </span>
               </div>
               <div className="icon">
-                <FontAwesomeIcon icon={faHtml5} color="#E34C26" />
-                <span>HTML5</span>
+                <DiMongodb color="#FFFFFF" size={90} />
+                <span
+                  style={{
+                    fontFamily: 'Helvetica, Arial, sans-serif',
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                    color: '#FFFFFF',
+                  }}
+                >
+                  MongoDB
+                </span>
               </div>
               <div className="icon">
-                <FontAwesomeIcon icon={faCss3Alt} color="#1572B6" />
-                <span>CSS3</span>
-              </div>
-              <div className="icon">
-                <FontAwesomeIcon icon={faDatabase} color="#4DB33D" />
-                <span>SQL</span>
+                <DiNodejs color="#FFFFFF" size={90} />
+                <span
+                  style={{
+                    fontFamily: 'Helvetica, Arial, sans-serif',
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                    color: '#FFFFFF',
+                  }}
+                >
+                  NodeJs
+                </span>
               </div>
             </div>
             <h2>Frameworks</h2>
             <div className="language-icons">
               <div className="icon">
-                <FontAwesomeIcon icon={faJava} color="#DD0031" />
-                <span>Java</span>
+                <FaReact color="#FFFFFF" size={90} />
+                <span
+                  style={{
+                    fontFamily: 'Helvetica, Arial, sans-serif',
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                    color: '#FFFFFF',
+                  }}
+                >
+                  React
+                </span>
               </div>
               <div className="icon">
-                <FontAwesomeIcon icon={faPython} color="#3776AB" />
-                <span>Python</span>
+                <SiFlask color="#FFFFFF" size={90} />
+                <span
+                  style={{
+                    fontFamily: 'Helvetica, Arial, sans-serif',
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                    color: '#FFFFFF',
+                  }}
+                >
+                  Flask
+                </span>
               </div>
               <div className="icon">
-                <FontAwesomeIcon icon={faJsSquare} color="#F7DF1E" />
-                <span>JavaScript</span>
-              </div>
-              <div className="icon">
-                <FontAwesomeIcon icon={faHtml5} color="#E34C26" />
-                <span>HTML5</span>
-              </div>
-              <div className="icon">
-                <FontAwesomeIcon icon={faCss3Alt} color="#1572B6" />
-                <span>CSS3</span>
-              </div>
-              <div className="icon">
-                <FontAwesomeIcon icon={faDatabase} color="#4DB33D" />
-                <span>SQL</span>
+                <SiSpringboot color="#FFFFFF" size={90} />
+                <span
+                  style={{
+                    fontFamily: 'Helvetica, Arial, sans-serif',
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                    color: '#FFFFFF',
+                  }}
+                >
+                  Springboot
+                </span>
               </div>
             </div>
             <h2>Tools and Platforms</h2>
             <div className="language-icons">
               <div className="icon">
-                <FontAwesomeIcon icon={faJava} color="#DD0031" />
-                <span>Java</span>
+                <FaAws color="#FFFFFF" size={90} />
+                <span
+                  style={{
+                    fontFamily: 'Helvetica, Arial, sans-serif',
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                    color: '#FFFFFF',
+                  }}
+                >
+                  AWS
+                </span>
               </div>
               <div className="icon">
-                <FontAwesomeIcon icon={faPython} color="#3776AB" />
-                <span>Python</span>
+                <FaDocker color="#FFFFFF" size={90} />
+                <span
+                  style={{
+                    fontFamily: 'Helvetica, Arial, sans-serif',
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                    color: '#FFFFFF',
+                  }}
+                >
+                  Docker
+                </span>
               </div>
               <div className="icon">
-                <FontAwesomeIcon icon={faJsSquare} color="#F7DF1E" />
-                <span>JavaScript</span>
+                <FaLinux color="#FFFFFF" size={90} />
+                <span
+                  style={{
+                    fontFamily: 'Helvetica, Arial, sans-serif',
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                    color: '#FFFFFF',
+                  }}
+                >
+                  Linux
+                </span>
               </div>
               <div className="icon">
-                <FontAwesomeIcon icon={faHtml5} color="#E34C26" />
-                <span>HTML5</span>
+                <FaGitAlt color="#FFFFFF" size={90} />
+                <span
+                  style={{
+                    fontFamily: 'Helvetica, Arial, sans-serif',
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                    color: '#FFFFFF',
+                  }}
+                >
+                  Git
+                </span>
               </div>
               <div className="icon">
-                <FontAwesomeIcon icon={faCss3Alt} color="#1572B6" />
-                <span>CSS3</span>
+                <SiMicrosoftazure color="#FFFFFF" size={90} />
+                <span
+                  style={{
+                    fontFamily: 'Helvetica, Arial, sans-serif',
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                    color: '#FFFFFF',
+                  }}
+                >
+                  Azure
+                </span>
               </div>
               <div className="icon">
-                <FontAwesomeIcon icon={faDatabase} color="#4DB33D" />
-                <span>SQL</span>
+                <SiKubernetes color="#FFFFFF" size={90} />
+                <span
+                  style={{
+                    fontFamily: 'Helvetica, Arial, sans-serif',
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                    color: '#FFFFFF',
+                  }}
+                >
+                  Kubernetes
+                </span>
               </div>
             </div>
           </div>

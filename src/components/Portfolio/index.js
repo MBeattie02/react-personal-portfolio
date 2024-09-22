@@ -65,7 +65,8 @@ const Portfolio = () => {
           />
         </h1>
         <p>
-          Below are the certifications I have completed to show my understanding of both Java and Oracle Cloud Infastructure
+          Below are the certifications I have completed to show my understanding
+          of Java, Oracle Cloud Infastructure and Azure
         </p>
         <div>{renderPortfolio(portfolioData.portfolio)}</div>
       </div>

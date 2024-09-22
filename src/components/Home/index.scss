@@ -187,12 +187,13 @@
   h1 {
     font-size: 36px !important;
     line-height: 45px !important;
-  
-    &:before,
-    &:after {
-      font-size: 14px !important;
-      left: -10px !important;
-    }
+    position: relative; 
+}
+
+  h1:before,
+  h1:after {
+      content: none !important; 
+      display: none !important; 
   }
 
   h3 {

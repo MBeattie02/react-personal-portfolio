@@ -8,11 +8,49 @@ let timelineElements = [
       <span>
         <h6>3rd Year Computer Science Modules </h6>
         <ul>
-          <li>Computer Science Project</li>
           <li>Cloud Computing</li>
           <li>Concurrent Programming</li>
           <li>Software Testing</li>
           <li>Network Security</li>
+          <li>Computer Science Project</li>
+          <h5>
+            Code-Review-as-an-Educational-Service: An Education-oriented
+            Software-as-a-Service Tool for Java Code Review
+          </h5>
+          <p style={{ color: 'black', fontSize: '15px', margin: '10px 0' }}>
+            This work aims to provide a safety net for novice students by
+            guiding them towards implementing industry-standard coding
+            conventions and away from poor-quality code pitfalls. Functionally,
+            the developed code review tool mainly leverages Abstract Syntax Tree
+            (AST) analysis, so as to automatically conduct detailed examination
+            of syntax and structure to identify code issues and suggest best
+            practices that meet industry standards. Non-functionally, compared
+            to other existing solutions, this work is particularly focused on
+            minimising configurations/operations and maximising the easiness to
+            use the tool for beginners.
+          </p>
+          <button
+            className="btn"
+            style={{
+              backgroundColor: '#4CAF50',
+              color: 'white',
+              padding: '15px 32px',
+              textAlign: 'center',
+              textDecoration: 'none',
+              display: 'inline-block',
+              fontSize: '15px',
+              margin: '2px 2px',
+              cursor: 'pointer',
+              border: 'none',
+              borderRadius: '2px',
+            }}
+            onClick={() =>
+              window.open('https://github.com/MBeattie02/code_review_tool')
+            }
+          >
+            View Project On Github
+          </button>
+          <h6>Overall Average : 75</h6>
         </ul>
       </span>
     ),

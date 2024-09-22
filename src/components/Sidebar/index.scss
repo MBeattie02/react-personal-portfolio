@@ -187,9 +187,22 @@
     position: fixed;
   }
 
-  .nav-bar nav.mobile-show {
-    display: block;
-  }
+/* Show the nav bar when mobile-show is active */
+.nav-bar nav.mobile-show {
+  display: block;
+  position: fixed;     
+  top: 0;
+  left: 0;
+  width: 100%;        
+  background-color: rgb(0, 0, 0); 
+  z-index: 9999;       
+}
+
+
+body.mobile-active > *:not(.nav-bar) {
+  display: none;      
+}
+
 
   .nav-bar nav a {
     display: flex;

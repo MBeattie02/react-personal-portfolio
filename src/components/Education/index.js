@@ -90,13 +90,22 @@ const Education = () => {
                   )
                 }
               >
-                <h3 className="vertical-timeline-element-title">
+                <h3
+                  className="vertical-timeline-element-title"
+                  style={{ color: 'red', fontSize: '24px' }}
+                >
                   {element.title}
                 </h3>
-                <h4 className="vertical-timeline-element-subtitle">
+                <h4
+                  className="vertical-timeline-element-subtitle"
+                  style={{ color: 'black', fontSize: '20px' }}
+                >
                   {element.location}
                 </h4>
-                <h5 className="vertical-timeline-element-subtitle">
+                <h5
+                  className="vertical-timeline-element-subtitle"
+                  style={{ color: 'black', fontSize: '10px' }}
+                >
                   {element.type}
                 </h5>
                 <p id="description">{element.description}</p>

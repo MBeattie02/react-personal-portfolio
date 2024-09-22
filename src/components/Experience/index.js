@@ -66,7 +66,6 @@ const Experience = () => {
 
       <VerticalTimeline>
         {timelineElements.map((element) => {
-          // Select the correct icon and styles
           const icon = iconMap[element.icon]
           const iconStyle = iconStyles[element.icon]
 
@@ -74,24 +73,24 @@ const Experience = () => {
             <VerticalTimelineElement
               key={element.key}
               date={element.date}
-              iconStyle={iconStyle} // Apply dynamic icon styles
-              icon={icon} // Use the correct icon component
+              iconStyle={iconStyle}
+              icon={icon}
             >
               <h3
                 className="vertical-timeline-element-title"
-                style={{ color: 'red', fontSize: '24px' }} // Correct camelCase style
+                style={{ color: 'red', fontSize: '24px' }}
               >
                 {element.title}
               </h3>
               <h4
                 className="vertical-timeline-element-subtitle"
-                style={{ color: 'black', fontSize: '20px' }} // Correct camelCase
+                style={{ color: 'black', fontSize: '20px' }}
               >
                 {element.location}
               </h4>
               <h5
                 className="vertical-timeline-element-subtitle"
-                style={{ color: 'black', fontSize: '10px' }} // Correct camelCase
+                style={{ color: 'black', fontSize: '10px' }}
               >
                 {element.type}
               </h5>
