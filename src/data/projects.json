@@ -1,34 +1,58 @@
 {
     "projects": [
         {
+            "cover": "/projects/1/Analyser.png",
+            "title": "Code Review Tool",
+            "description": "Code-Review-as-an-Educational-Service: An Education-oriented Software-as-a-Service Tool for Java Code Review",
+            "url": "https://github.com/MBeattie02/code_review_tool"
+        },
+        {
+            "cover": "/projects/1/springBoot.png",
+            "title": "SpringBoot Employee Microservice",
+            "description": "4 part java spring boot microservice for tracking employees",
+            "url": "https://github.com/MBeattie02/SpringBoot-Employee-Microservice"
+        },
+        {
+            "cover": "/projects/1/Flask.png",
+            "title": "FlaskRESTAPI",
+            "description": "Simple Python and Flask REST API",
+            "url": "https://github.com/MBeattie02/FlaskRestAPI"
+        },
+        {
+            "cover": "/projects/1/flaskReact.png",
+            "title": "Images Gallery Python/React/FullStack",
+            "description": "Full-stack App",
+            "url": "https://github.com/MBeattie02/images-gallery-Python-React-FullStack"
+        },
+        {
             "cover": "/projects/1/Movieapp.png",
             "title": "Movie App React",
             "description": "Movie App",
-            "url": "https://matthew-movie-app.netlify.app"
+            "url": "https://github.com/MBeattie02/movie-app-react"
         },
         {
             "cover": "/projects/1/Gym.png",
             "title": "Gym App React",
             "description": "Gym App",
-            "url": "https://6318b6cb4ce2211d51e70bc7--matthew-gym-app.netlify.app/"
+            "url": "https://github.com/MBeattie02/gym-exercises-react"
         },
         {
             "cover": "/projects/1/Crypto.png",
             "title": "Crypto App React",
             "description": "Crypto App",
-            "url": "https://matthew-crypto.netlify.app/"
+            "url": "https://github.com/MBeattie02/Crypto-App-React"
         },
         {
             "cover": "/projects/1/proshop.png",
             "title": "ProShop",
             "description": "MERN eCommerce platform",
-            "url": "https://proshopmernapps.herokuapp.com"
+            "url": "https://github.com/MBeattie02/proshop"
         },
         {
             "cover": "/projects/1/carDatabase.png",
             "title": "Car Database",
             "description": "Springboot & React app",
-            "url": "https://cardatabase.netlify.app"
+            "url": "https://github.com/MBeattie02/carAppFront"
         },
         {
             "cover": "/projects/1/Github.png",
