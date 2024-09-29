@@ -10,7 +10,7 @@ let timelineElements = [
         <li>Graduate Engineer Working in Belfast Office</li>
       </ul>
     ),
-    date: 'June 2023 - present',
+    date: 'August 2024 - present',
     icon: 'wolf',
   },
   {
