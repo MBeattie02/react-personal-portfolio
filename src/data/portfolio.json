@@ -23,6 +23,12 @@
             "title": "Microsoft Azure",
             "description": "Microsoft Certified: Azure Developer Associate",
             "url": "https://learn.microsoft.com/en-us/users/matthewbeattie-9912/credentials/dc1f256a47b017c5"
+        },
+        {
+            "cover": "/portfolio/1/AWSPract.png",
+            "title": "AWS",
+            "description": "AWS Certified Cloud Practitioner",
+            "url": "https://www.credly.com/badges/8f2b15b4-5d4b-437e-9509-50f36e73e4c1/public_url"
         }
     ]
 }
