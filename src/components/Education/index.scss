@@ -60,7 +60,26 @@
         padding: 2em 3em !important;
     }
 
-
+    .button-container {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-start;
+        margin: 10px 0;
+    }
+      
+    .timeline-btn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 2px 2px;
+        cursor: pointer;
+        border: none;
+        border-radius: 2px;
+    }
 
     #description {
         margin: 1.5em 0 2em 0;

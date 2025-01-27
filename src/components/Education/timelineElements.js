@@ -34,21 +34,44 @@ let timelineElements = [
             style={{
               backgroundColor: '#4CAF50',
               color: 'white',
-              padding: '15px 32px',
+              padding: '10px 20px',
               textAlign: 'center',
               textDecoration: 'none',
               display: 'inline-block',
-              fontSize: '15px',
-              margin: '2px 2px',
+              fontSize: '14px',
+              margin: '5px 2px',
               cursor: 'pointer',
               border: 'none',
-              borderRadius: '2px',
+              borderRadius: '4px',
             }}
             onClick={() =>
               window.open('https://github.com/MBeattie02/code_review_tool')
             }
           >
             View Project On Github
+          </button>
+          <button
+            className="btn"
+            style={{
+              backgroundColor: '#4CAF50',
+              color: 'white',
+              padding: '10px 20px',
+              textAlign: 'center',
+              textDecoration: 'none',
+              display: 'inline-block',
+              fontSize: '14px',
+              margin: '5px 2px',
+              cursor: 'pointer',
+              border: 'none',
+              borderRadius: '4px',
+            }}
+            onClick={() =>
+              window.open(
+                'https://www.sciencedirect.com/science/article/pii/S2352711025000159'
+              )
+            }
+          >
+            View Published Paper On Science Direct
           </button>
           <h6>Overall Average : 75</h6>
         </ul>
